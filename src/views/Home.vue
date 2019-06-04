@@ -1,15 +1,17 @@
 <template>
   <div class="home">
-    <HelloWorld />
+    {{ msg }}
   </div>
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld'
 export default {
   name: 'home',
-  components: {
-    HelloWorld
-  }
+  data() {
+    return {
+      msg: 'Hi! This is my Vue template'
+    }
+  },
+  components: {}
 }
 </script>
