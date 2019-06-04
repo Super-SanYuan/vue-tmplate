@@ -7,7 +7,6 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "homepage": "https://oldgingerhead.github.io/vue-smart-cloud/dist",
   "dependencies": {
     "core-js": "^2.6.5",
     "eslint-config-standard": "^12.0.0",
